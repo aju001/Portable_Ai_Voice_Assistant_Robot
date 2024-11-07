@@ -48,4 +48,4 @@ Here is a circuit diagram for the project:
 # Final Model 
 Here is a final model for the project:
 
-<img src="assests/bot.jpeg" alt="bot" width="300"/>
+<img src="assests/bot.jpeg" alt="bot" width="400"/>
