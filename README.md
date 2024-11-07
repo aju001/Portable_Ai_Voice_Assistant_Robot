@@ -1,33 +1,36 @@
-# Portable_Ai_Voice_Assistant_Robot
-# ESP32-Voice-Assistant-with-Speech-to-Text-Perplexity-AI-and-Text-to-Speech
-A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. This project leverages Google Colab's free computing services for speech-to-text and text-to-speech processing, and integrates with the Perplexity AI API for intelligent conversation and query handling.
+# Portable_Ai_Voice_Assistant_Robot with Gemini
+A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. This project leverages the powerful Gemini AI model for intelligent conversation and query handling, along with Deepgram's speech-to-text API for seamless voice interaction. The integration of Gemini and Deepgram enables a responsive, interactive AI experience, while the ESP32 keeps the solution affordable and efficient.
 
 # Features
-- Offline wake word detection using the INMP441 I2S microphone (still in development, Currently push button)
-- Records user queries and sends audio to Google Colab for speech-to-text
-- Processes natural language queries using Perplexity AI's API
-- Converts Perplexity's response back to speech using Google Colab
+- Offline wake word detection using the INMP441 I2S microphone (still in development, currently uses a push button)
+- Records user queries and sends audio to Deepgram for speech-to-text processing
+- Processes natural language queries using Gemini AI's API for intelligent conversation
+- Converts deepgram's response to speech using Gemini for high-quality text-to-speech output
 - Plays back the AI-generated voice response on the ESP32 using a MAX98357A I2S amplifier and speaker
-- Designed for ease of assembly, using commonly available components and Dupont connectors for testing.
+- Designed for ease of assembly, utilizing commonly available components and Dupont connectors for testing and prototyping
 
 # This voice assistant is still in active development. Current efforts are focused on:
 - Designing mobile power supply 
 - Wake word detection accuracy
 - Decreasing latency
-- Adding photo upload and camera hardware
 
 # Hardware
-- ESP32 development board (e.g. ESP32-WROOM-32)
-- INMP441 I2S digital microphone
-- MAX98357A I2S digital audio amplifier
-- 4 ohm, 3W speaker
-- SPI MicroSD card module for audio storage
-- Power Supply (Minimum 1.25 A @ 5 V)
-- Dupont cables for connections
+- Esp 32 doit devkit v1
+- MAX98357 I2S 3W Class D Amplifier 
+- INMP441  Microphone Module I2S
+- Micro SD Card Module for audio storage
+- SG 90 SERVO
+- RGB led
+- 134N3P 5V Step-Up Power Module
+- TP4056 module
+- 3.7v li-ion battery
+- Push button 
+- 10 k resistors 
+- Slide swich
 
 # Getting Started
-- Connect the hardware components as shown in the wiring diagram (Coming soon)
+- Connect the hardware components as shown in the wiring diagram 
 - Install the ESP32 Arduino core and required libraries
-- Configure your WiFi, Google Colab, and Perplexity API credentials
+- Configure your WiFi, Gemini API, and DeepGram API credentials
 - Flash the firmware to your ESP32
 -Power up the device and test it by holding the button and speaking a question
