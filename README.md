@@ -1,51 +1,56 @@
-# Portable_Ai_Voice_Assistant_Robot with Gemini
-A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. This project leverages the powerful Gemini AI model for intelligent conversation and query handling, along with Deepgram's speech-to-text API for seamless voice interaction. The integration of Gemini and Deepgram enables a responsive, interactive AI experience, while the ESP32 keeps the solution affordable and efficient.
+# Portable AI Voice Assistant Robot with Gemini 🤖🎤
+A low-cost AI-powered voice assistant based on the ESP32 microcontroller, featuring Gemini AI for smart conversations and Deepgram's Speech-to-Text API for seamless voice interactions. 🧠🔊 The combination of Gemini AI and Deepgram creates an interactive and responsive voice assistant, while the ESP32 keeps it affordable and efficient. 🌟
 
-# Features
-- Offline wake word detection using the INMP441 I2S microphone (still in development, currently uses a push button)
-- Push-to-Ask: Press a button to initiate voice commands.
-- Records user queries and sends audio to Deepgram for speech-to-text processing
-- Real-Time Responses: Utilizes the Gemini AI model for real-time question answering.
-- Processes natural language queries using Gemini AI's API for intelligent conversation
-- Converts deepgram's response to speech using Gemini for high-quality text-to-speech output
-- Plays back the AI-generated voice response on the ESP32 using a MAX98357A I2S amplifier and speaker
-- External SD Card Support: Stores longer queries and additional data.
-- Repeat Button: Replay the previous answer.
-- Designed for ease of assembly, utilizing commonly available components and Dupont connectors for testing and prototyping
 
-# This voice assistant is still in active development. Current efforts are focused on:
-- Designing mobile power supply 
-- Wake word detection accuracy
-- Decreasing latency
 
-# Hardware
-- Esp 32 doit devkit v1
-- MAX98357 I2S 3W Class D Amplifier 
-- INMP441  Microphone Module I2S
-- Micro SD Card Module for audio storage
-- SG 90 SERVO
-- RGB led
+# 🔥 Features ✨
+- 🎤 Offline Wake Word Detection: Using the INMP441 I2S microphone (currently in development, may use push button for now)
+- 🕹️ Push-to-Ask: Press a button to trigger voice commands
+- 🗣️ Speech-to-Text: Record and send queries to Deepgram for transcription
+- ⚡ Real-Time AI Responses: Powered by Gemini AI for intelligent, real-time answers
+- 💬 Natural Language Processing: Understands user queries and responds in natural language
+- 🗣️ Text-to-Speech Output: Converts AI responses into high-quality speech via Gemini
+- 🎧 Audio Playback: Voice responses are played on the ESP32 using a MAX98357A I2S amplifier & speaker
+- 💾 External SD Card: Stores longer queries and additional data
+- 🔁 Repeat Button: Replay the last response with one button press
+- 🛠️ Easy Assembly: Utilizes common components, including Dupont connectors for fast prototyping and testing
+
+# 🚧 Active Development Focus 🛠️
+- 🔋  Power Supply Design
+- 🎙️ Wake Word Detection Accuracy
+- ⚡ Reducing Latency for faster responses
+
+# 🖥️ Hardware Components 🧰
+- ESP32 DevKit V1
+- MAX98357A I2S 3W Class D Amplifier
+- INMP441 I2S Microphone Module
+- Micro SD Card Module for storing audio files
+- SG90 Servo Motor
+- RGB LED for status indication
 - 134N3P 5V Step-Up Power Module
-- TP4056 module
-- 3.7v li-ion battery
-- Push button 
-- 10 k resistors 
-- Slide swich
+- TP4056 Lithium Battery Charging Module
+- 3.7V Li-ion Battery
+- Push Button for triggering queries
+- 10K Resistors
+- Slide Switch for power control
 
-# Circuit Diagram
-Here is a circuit diagram for the project:
+# 📊 Circuit Diagram 🖱️
+Here’s a circuit diagram to help with the wiring:
 
 ![Circuit Diagram](assests/circuitdiagram.jpeg)
 
-# Getting Started
-- Connect the hardware components as shown in the wiring diagram 
-- Install the ESP32 Arduino core and required libraries
-- Configure your WiFi, Gemini API, and DeepGram API credentials
-- Flash the firmware to your ESP32
--Power up the device and test it by holding the button and speaking a question
+# 🏁 Getting Started 🚀
+- 🔌 Connect the Hardware: Follow the wiring diagram to connect all components
+- 💻 Install Required Software: Install the ESP32 Arduino Core and libraries
+- 🌐 Configure APIs: Set up WiFi, Gemini API, and Deepgram API credentials
+- ⚡ Flash the Firmware to your ESP32
+- 🎤 Power On and test by holding the button and speaking a question!
 
 
-# Final Model 
-Here is a final model for the project:
+# 🤩 Final Model 🔥
+Here’s how your AI assistant looks when completed:
 
 <img src="assests/bot.jpeg" alt="bot" width="400"/>
+
+# 🚀 Exciting Potential 🌟
+This voice assistant is a work-in-progress, and we’re excited about the possibilities! Future updates will bring better performance, additional features, and an even more polished user experience. Keep an eye out for updates as we continue to evolve this project! 🔧💡
