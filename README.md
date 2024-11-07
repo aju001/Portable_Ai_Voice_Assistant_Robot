@@ -3,10 +3,14 @@ A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. Thi
 
 # Features
 - Offline wake word detection using the INMP441 I2S microphone (still in development, currently uses a push button)
+- Push-to-Ask: Press a button to initiate voice commands.
 - Records user queries and sends audio to Deepgram for speech-to-text processing
+- Real-Time Responses: Utilizes the Gemini AI model for real-time question answering.
 - Processes natural language queries using Gemini AI's API for intelligent conversation
 - Converts deepgram's response to speech using Gemini for high-quality text-to-speech output
 - Plays back the AI-generated voice response on the ESP32 using a MAX98357A I2S amplifier and speaker
+- External SD Card Support: Stores longer queries and additional data.
+- Repeat Button: Replay the previous answer.
 - Designed for ease of assembly, utilizing commonly available components and Dupont connectors for testing and prototyping
 
 # This voice assistant is still in active development. Current efforts are focused on:
@@ -27,6 +31,11 @@ A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. Thi
 - Push button 
 - 10 k resistors 
 - Slide swich
+
+# Circuit Diagram
+Here is a circuit diagram for the project:
+
+![Circuit Diagram](circuitdiagram.jpg)
 
 # Getting Started
 - Connect the hardware components as shown in the wiring diagram 
