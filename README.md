@@ -35,7 +35,7 @@ A dedicated, low-cost AI voice assistant based on the ESP32 microcontroller. Thi
 # Circuit Diagram
 Here is a circuit diagram for the project:
 
-![Circuit Diagram](circuitdiagram.jpeg)
+![Circuit Diagram](assests/circuitdiagram.jpeg)
 
 # Getting Started
 - Connect the hardware components as shown in the wiring diagram 
