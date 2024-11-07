@@ -43,3 +43,9 @@ Here is a circuit diagram for the project:
 - Configure your WiFi, Gemini API, and DeepGram API credentials
 - Flash the firmware to your ESP32
 -Power up the device and test it by holding the button and speaking a question
+
+
+# Final Model 
+Here is a final model for the project:
+
+![bot](assests/bot.jpeg)
