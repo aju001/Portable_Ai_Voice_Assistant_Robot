@@ -49,3 +49,8 @@ Here is a circuit diagram for the project:
 Here is a final model for the project:
 
 ![bot](assests/bot.jpeg)
+# My Project
+
+Here is an image of the bot:
+
+<img src="assests/bot.jpeg" alt="bot" width="300"/>
